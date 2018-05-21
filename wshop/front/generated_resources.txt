@@ -1,0 +1,14 @@
+static/wshop/front/css/owl.video.play.png
+static/wshop/front/css/style.css
+static/wshop/front/fonts/FontAwesome.otf
+static/wshop/front/fonts/fontawesome-webfont.eot
+static/wshop/front/fonts/fontawesome-webfont.svg
+static/wshop/front/fonts/fontawesome-webfont.ttf
+static/wshop/front/fonts/fontawesome-webfont.woff
+static/wshop/front/fonts/fontawesome-webfont.woff2
+static/wshop/front/fonts/glyphicons-halflings-regular.eot
+static/wshop/front/fonts/glyphicons-halflings-regular.svg
+static/wshop/front/fonts/glyphicons-halflings-regular.ttf
+static/wshop/front/fonts/glyphicons-halflings-regular.woff
+static/wshop/front/fonts/glyphicons-halflings-regular.woff2
+static/wshop/front/js/scripts.js

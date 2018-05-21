@@ -1,0 +1,21 @@
+{% if request.GET.popup %}
+{% extends "wshop/admin/base_popup.jinja" %}
+{% else %}
+{% extends "wshop/admin/base.jinja" %}
+{% endif %}
+{% block title -%}
+    {%- if title %}{{ title }}
+    {%- elif view and view.model -%}{{ (""~view.model._meta.verbose_name_plural)|title }}
+    {%- endif -%}
+{%- endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="content-block">
+            <div id="picotable"></div>
+        </div>
+    </div>
+{% endblock %}
+{% block extra_js %}
+<script src="{{ static("wshop_admin/js/picotable.js") }}"></script>
+<script>var picotable = new Picotable(document.getElementById("picotable"), window.location.pathname);</script>
+{% endblock %}

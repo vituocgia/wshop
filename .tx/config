@@ -1,0 +1,168 @@
+[main]
+host = https://www.transifex.com
+lang_map = cmn:zh_Hans
+
+[wshop.addons]
+file_filter = wshop/addons/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.admin]
+file_filter = wshop/admin/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.admin-javascript]
+file_filter = wshop/admin/locale/<lang>/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO
+
+[wshop.api]
+source_lang = en
+file_filter = wshop/api/locale/<lang>/LC_MESSAGES/django.po
+type = PO
+
+[wshop.campaigns]
+file_filter = wshop/campaigns/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.core]
+file_filter = wshop/core/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.customer-group-pricing]
+file_filter = wshop/customer_group_pricing/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.default-importer]
+file_filter = wshop/default_importer/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.default-reports]
+file_filter = wshop/default_reports/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.default-tax]
+file_filter = wshop/default_tax/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front]
+file_filter = wshop/front/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-auth]
+file_filter = wshop/front/apps/auth/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-carousel]
+file_filter = wshop/front/apps/carousel/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-customer-information]
+file_filter = wshop/front/apps/customer_information/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-personal-order-history]
+file_filter = wshop/front/apps/personal_order_history/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-saved-carts]
+file_filter = wshop/front/apps/saved_carts/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-recently-viewed-products]
+file_filter = wshop/front/apps/recently_viewed_products/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-registration]
+file_filter = wshop/front/apps/registration/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-simple-order-notification]
+file_filter = wshop/front/apps/simple_order_notification/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.front-apps-simple-search]
+file_filter = wshop/front/apps/simple_search/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.guide]
+file_filter = wshop/guide/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.importer]
+file_filter = wshop/importer/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.notify]
+file_filter = wshop/notify/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.notify-javascript]
+file_filter = wshop/notify/locale/<lang>/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO
+
+[wshop.order-printouts]
+file_filter = wshop/order_printouts/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.reports]
+file_filter = wshop/reports/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.simple-cms]
+file_filter = wshop/simple_cms/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.simple-supplier]
+file_filter = wshop/simple_supplier/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.testing]
+file_filter = wshop/testing/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.themes-classic-gray]
+file_filter = wshop/themes/classic_gray/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.utils]
+file_filter = wshop/utils/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.xtheme]
+file_filter = wshop/xtheme/locale/<lang>/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[wshop.xtheme-javascript]
+file_filter = wshop/xtheme/locale/<lang>/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO

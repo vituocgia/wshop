@@ -1,0 +1,6 @@
+{% extends "wshop/admin/base.jinja" %}
+{% from "wshop/admin/macros/general.jinja" import single_section_form with context %}
+
+{% block content %}
+    {{ single_section_form("tax_class_form", form) }}
+{% endblock %}

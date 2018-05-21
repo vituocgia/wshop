@@ -1,0 +1,48 @@
+{% extends "wshop/admin/base.jinja" %}
+{% from "wshop/admin/macros/block.jinja" import link_block with context %}
+
+{% block title -%}
+    {% trans %}Welcome!{% endtrans %}
+{%- endblock %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{{ static("wshop_admin/css/home.css") }}">
+{% endblock %}
+
+{% block support_content %}
+    {% if wshop_admin.is_multishop_enabled() %}
+    <div class="container-fluid support-nav-wrap{% if iframe_mode %} iframe-mode{% endif %}">
+        <div class="flex-wrapper">
+            <h3>Active shop: <strong>{{ wshop_admin.get_admin_shop().name }}</strong></h3>
+        </div>
+    </div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="home-header header text-center">
+            <img src="{{ static("wshop_admin/img/logo-icon.svg") }}">
+            <h1>{% trans %}Welcome to Wshop!{% endtrans %}</h1>
+            <p>{% trans %}You're almost done! Complete the following steps to sell your products online{% endtrans %}</p>
+        </div>
+        {% for b in blocks %}
+            {{ link_block(b, redirect=url("wshop_admin:home")) }}
+        {% endfor %}
+    </div>
+{% endblock %}
+{% block extra_js %}
+    <script>
+        (function(){
+            $.tour("setPageSteps", [{
+                banner: "{{ static("wshop_admin/img/welcome_banner.png") }}",
+                showCancelLink: false,
+                classes: "shepherd-theme-arrows has-banner",
+                text: [
+                    "{% trans %}Hi, new shop owner!{% endtrans %}",
+                    "{% trans %}Welcome to your store admin!{% endtrans %}",
+                    "{% trans %}Let’s go through some of the things you can do here. Click next to begin.{% endtrans %}"
+                ]
+            }]);
+        })();
+    </script>
+{% endblock %}

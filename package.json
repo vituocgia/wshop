@@ -1,0 +1,30 @@
+{
+  "name": "Wshop",
+  "version": "1.0.0",
+  "description": "Open Source E-Commerce",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build": "python setup.py build_resources",
+    "dev:test": "py.test -vvv --cov wshop --cov-report html wshop_tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wshopio/wshop.git"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Wshop Team <wshop@wshop.com>",
+  "license": "OSL-3.0",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/wshopio/wshop/issues"
+  },
+  "homepage": "https://wshop.com/",
+  "devDependencies": {
+    "eslint": "^1.6.0",
+    "jscs": "^2.3.0"
+  }
+}

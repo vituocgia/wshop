@@ -1,0 +1,27 @@
+include README.rst
+include LICENSE
+include VENDOR-LICENSES.md
+
+include tox.ini
+
+recursive-include wshop \
+    *.jinja *.txt *.js *.css *.json *.less *.map \
+    *.ico *.png *.svg *.jpg \
+    *.woff *.woff2 *.eot *.otf *.ttf *.po *.mo
+
+recursive-include wshop_tests *.jinja
+
+# No extra extensions to include from wshop_workbench, but it will be
+# included still, since it's a Python package.
+# recursive-include wshop_workbench ...
+
+prune wshop/*/bower_components
+prune wshop/*/*/bower_components
+prune wshop/*/*/*/bower_components
+prune wshop/*/*/*/*/bower_components
+prune wshop/*/*/*/*/node_modules
+prune wshop/*/*/*/node_modules
+prune wshop/*/*/node_modules
+prune wshop/*/node_modules
+
+recursive-include doc *.rst *.py *.LICENSE Makefile make.bat
